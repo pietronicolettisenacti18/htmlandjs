@@ -7,75 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
+
 </head>
 
 <body>
 
-    <form>
-        <p>
-        <h2>Cadastro</h2>
-        </p>
-        <p>
-            <label id="nome">
-                Nome:
-            </label>
-            <input>
+    <div>
+        <form id="tabela">
+            <script src="app.js"></script>
+            <p>
+            <h2>Cadastro</h2>
+            </p>
+            <p>
+                <label id="nome">
+                    Nome:
+                </label>
+                <input type="text" name="nome" /><br /><br />
 
 
+                <label id="sobrenome">
+                    Sobrenome:</label>
+                <input type="text" name="sobrenome" /><br /><br />
 
-            <label id="sobrenome">
-                Sobrenome:</label>
-            <input>
-
-        </p>
-
-        <p>
-            <label id="email">
-                email:</label>
-            <input>
-        </p>
-        <p>
-            <label id="senha"> Senha:</label>
-            <input>
+            </p>
+            <p>
+                <label id="email">
+                    email:</label>
+                <input type="text" name="email" /><br /><br />
+            </p>
+            <p>
+                <label id="senha"> Senha:</label>
+                <input type="password" name="senha" /><br /><br />
 
 
-            <label id="csenha">
-                Confirmação de Senha: </label>
-            <input>
+                <label id="csenha">
+                    Confirmação de Senha: </label>
+                <input type="password" name="csenha" /><br /><br />
 
-        </p>
+            </p>
 
-        <p>
-            <label id="nascimento">
-                Data de nascimento: </label>
-            <input>
-        </p>
-        <p>
-            <label id="endereco">
-                Endereço: </label>
-            <input>
-
-
-            <label id="numero">
-                Número: </label>
-            <input>
-
-        </p>
-
-        <p>
-            <label id="cidade">
-                Cidade: </label>
-            <input>
+            <p>
+                <label id="nascimento">
+                    Data de nascimento: </label>
+                <input type="date" name="data" /><br /><br />
+            </p>
+            <p>
+                <label id="endereco">
+                    Endereço: </label>
+                <input type="text" name="endereco" /><br /><br />
 
 
-            <label id="estado">
-                Estado: </label>
-            <input>
+                <label id="numero">
+                    Número: </label>
+                <input type="number" name="numero" /><br /><br />
 
-        </p>
+            </p>
 
-        <button>Salvar</button>
+            <p>
+                <label id="cidade">
+                    Cidade: </label>
+                <input type="text" name="cidade" /><br /><br />
 
+
+                <label id="estado">
+                    Estado: </label>
+                <select><input name="estado" /><br /><br /></select>
+
+            </p>
+
+            <button>Salvar</button>
+    </div>
     </form>
 
     <div>
@@ -85,6 +86,28 @@
 
     </div>
 
+    <div id="tabelinha">
+        <table id="table">
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>Sobrenome</td>
+                    <td>Email</td>
+                    <td>Senha</td>
+                    <td>Confirmação de Senha</td>
+                    <td>Data de Nascimento</td>
+                    <td>Endereco</td>
+                    <td>Número</td>
+                    <td>Cidade</td>
+                    <td>Estado</td>
+                </tr>
+
+            </thead>
+
+        </table>
+
+    </div>
+    <script type="app.js"></script>
 </body>
 
 </html>
